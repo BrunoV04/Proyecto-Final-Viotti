@@ -1,0 +1,16 @@
+.top{
+    background-color:#d52b1e;
+    width: 100%;
+    height: 78px;
+}
+
+.base{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logotipo {
+    width: 120px;
+    padding: 10px 0px;
+}

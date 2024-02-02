@@ -1,0 +1,40 @@
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.controles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #d52b1e;
+    border-radius:40px;
+    padding:0px 30px;
+}
+
+.numero{
+    padding-top:10px;
+    font-weight: 500;
+    font-size:16px;
+}
+
+.btn{
+    font-weight: 500;
+    font-size:16px;
+    border: none;
+    padding:0px 10px;
+    background:#fff;
+}
+
+
+.btn2{
+    display: inline-block;
+    background-color:#d52b1e;
+    border-radius:40px;
+    font-weight: 500;
+    font-size:14px;
+    color:#fff;
+    padding:2px 30px;
+    border:none;
+    margin-left:5px;
+}

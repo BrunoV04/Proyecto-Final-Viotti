@@ -1,0 +1,14 @@
+.btn{
+    background-color:#d52b1e;
+    color:#fff;
+    font-size:17px;
+    font-weight: 500;
+    text-decoration: none;
+    list-style: none;
+    display:flex;
+}
+
+img{
+    width: 20px;
+    margin:0px 8px;
+}

@@ -1,0 +1,58 @@
+.card{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    padding:30px;
+}
+
+.card2{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding:30px;
+}
+
+.title{
+    color:#4a4a49;
+    font-weight:700;
+    font-size:18px;
+    margin:18px;
+}
+
+.cartRender{
+    width: 400px;
+    justify-content: center;
+    align-items: center;
+}
+
+.h3{
+    color:#4a4a49;
+    font-weight:700;
+    font-size:32px;
+    margin:18px;
+}
+
+.check{
+    display: inline-block;
+    background-color:#d52b1e;
+    border-radius:40px;
+    font-weight: 500;
+    font-size:14px;
+    color:#fff;
+    padding:10px 25px;
+    border:none;
+    margin-left:5px;
+}
+
+.limpiar{
+    display: inline-block;
+    background-color:#fff;
+    border-radius:40px;
+    font-weight: 500;
+    font-size:14px;
+    color:#4a4a49;
+    padding:10px 25px;
+    border:1px solid #d52b1e;
+    margin-left:5px;
+}

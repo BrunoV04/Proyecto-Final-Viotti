@@ -1,0 +1,21 @@
+.buscador {
+    border-radius: 28px;
+    border: 0px;
+}
+
+input::placeholder {
+    padding: 25px 15px;
+    color: #979899;
+    font-weight: 500;
+    font-size:16px;
+}
+
+input {
+    width: 450px;
+    padding:5px;
+}
+
+input:focus {
+    outline: none;
+}
+
