@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom"
+import { Link, useNavigate } from "react-router-dom"
 import OrderCss from "./OrderForm.module.css"
 import { useState } from "react"
 import Alert from '../Alert/Alert'
@@ -6,6 +6,7 @@ import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
 const OrderForm = (props) => {
+const navigate = useNavigate()
 const [form, setForm] = useState({
     nombre: '',
     ciudad: '',
@@ -22,11 +23,12 @@ const [form, setForm] = useState({
   
   const handleConfirmarCompra = () => {
     if (form.nombre && form.ciudad && form.direccion && form.telefono) {
-      // Todos los campos están completos, continuar con la confirmación de compra
       props.create(form);
       toast.success(`Gracias por su compra ${form.nombre}, será informado por el envio al teléfono ${form.telefono}.`);
+      setTimeout(()=>{
+        navigate("/")
+      },5000)
     } else {
-      // Al menos uno de los campos está vacío, mostrar un mensaje de error
       toast.error(`Por favor complete todos los campos para confirmar la compra.`);
     }
   };

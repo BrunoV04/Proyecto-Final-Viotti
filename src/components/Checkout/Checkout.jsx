@@ -3,9 +3,7 @@ import { useContext } from "react"
 import { CartContext } from '../../context/CartContext'
 import { db } from "../../services/firebase/firebase"
 import { collection, getDocs, where, query, documentId, writeBatch, addDoc } from "firebase/firestore"
-import Alert from '../Alert/Alert'
-import { toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+
 
 
 const Checkout = () => {
@@ -61,7 +59,6 @@ if(outOfStock.length === 0){
     return (
         <>
         <OrderForm create={createOrder} />
-        <Alert/>
         </>
     )
 }
