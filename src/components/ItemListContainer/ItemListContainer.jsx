@@ -3,14 +3,14 @@ import ItemList from './ItemList'
 import Slider from '../Slider/Slider'
 
 const ItemListContainer = () => {
-    return(
+    return (
         <>
-        <Slider/>
-        <div className="container">
-            <div className={ItemListContainerCss.base}>
-        <ItemList/>
-        </div>
-        </div>
+            <Slider />
+            <div className="container">
+                <div className={ItemListContainerCss.base}>
+                    <ItemList />
+                </div>
+            </div>
         </>
     )
 }

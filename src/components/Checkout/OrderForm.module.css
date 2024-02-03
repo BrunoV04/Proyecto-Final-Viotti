@@ -1,15 +1,15 @@
-.card{
-    margin:20px 0px;
-    }
+.card {
+    margin: 20px 0px;
+}
 
-.check{
+.check {
     display: inline-block;
-    background-color:#d52b1e;
-    border-radius:40px;
+    background-color: #d52b1e;
+    border-radius: 40px;
     font-weight: 500;
-    font-size:14px;
-    color:#fff;
-    padding:10px 25px;
-    border:none;
-    margin-left:5px;
+    font-size: 14px;
+    color: #fff;
+    padding: 10px 25px;
+    border: none;
+    margin-left: 5px;
 }

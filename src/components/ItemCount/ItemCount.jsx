@@ -1,7 +1,7 @@
 import CountCss from './ItemCount.module.css'
 import { useState } from 'react'
 
-const ItemCount = ({stock, inicial, onAdd}) => {
+const ItemCount = ({ stock, inicial, onAdd }) => {
     const [cantidad, setCantidad] = useState(inicial)
 
     const incrementar = () => {
@@ -23,7 +23,7 @@ const ItemCount = ({stock, inicial, onAdd}) => {
                 <h4 className={CountCss.numero}>{cantidad}</h4>
                 <button className={CountCss.btn} onClick={incrementar}>+</button>
             </div>
-                <button className={CountCss.btn2} onClick={() => onAdd(cantidad)}>Agregar</button>
+            <button className={CountCss.btn2} onClick={() => onAdd(cantidad)}>Agregar</button>
         </div>
     )
 }

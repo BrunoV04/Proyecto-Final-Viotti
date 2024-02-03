@@ -10,10 +10,10 @@ import { useState } from 'react'
 
 const NavBar = () => {
     const [ocultoSubMenu, mostrarSubMenu] = useState(false)
-    
+
     const mostrarCategoria = () => {
         mostrarSubMenu(!ocultoSubMenu);
-      };
+    };
 
     return (
 
@@ -21,8 +21,8 @@ const NavBar = () => {
             <div className={navbar.top}>
                 <div className="container">
                     <div className={navbar.base}>
-                    <Link to='/'><img src={logo} className={navbar.logotipo} alt="Logotipo Supermercados Giro" /></Link>
-                    <Boton ico={icono} onClick={mostrarCategoria} nom={'Categoría'}/>
+                        <Link to='/'><img src={logo} className={navbar.logotipo} alt="Logotipo Supermercados Giro" /></Link>
+                        <Boton ico={icono} onClick={mostrarCategoria} nom={'Categoría'} />
                         <Buscador />
                         <CartWidget />
                     </div>

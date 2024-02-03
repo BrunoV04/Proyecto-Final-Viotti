@@ -1,11 +1,11 @@
-.pie{
- background-color: #f5f5f5;
- padding:50px 0px;
- bottom: 0px;
+.pie {
+    background-color: #f5f5f5;
+    padding: 50px 0px;
+    bottom: 0px;
 }
 
-.pie p{
-    font-size:13px;
-    color:#4a4a49;
+.pie p {
+    font-size: 13px;
+    color: #4a4a49;
     text-align: center;
 }

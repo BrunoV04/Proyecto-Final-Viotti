@@ -1,33 +1,36 @@
-.modulo{
+.modulo {
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
 }
-.carrito{
-    display:flex;
+
+.carrito {
+    display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     position: absolute;
-    margin-top:20px;
+    margin-top: 20px;
 }
-.carro{
 
-display: flex;
-  align-items: center;
+.carro {
+
+    display: flex;
+    align-items: center;
 }
-.ico{
+
+.ico {
     width: 30px;
     height: 100%;
 }
 
-.num{
+.num {
     font-weight: 600;
-    font-size:10px;
-    background-color:#fff;
-    color:black;
-    border-radius:50px;
+    font-size: 10px;
+    background-color: #fff;
+    color: black;
+    border-radius: 50px;
     width: 15px;
     height: 15px;
     display: flex;
@@ -35,15 +38,15 @@ display: flex;
     align-items: center;
 }
 
-.num p{
- padding-right: 10px;
+.num p {
+    padding-right: 10px;
 }
 
-.text{
-display:flex;
-justify-content: center;
-align-items: center;
-color:#fff;
-font-weight: 400;
-font-size: 14px;
+.text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 400;
+    font-size: 14px;
 }

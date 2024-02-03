@@ -12,13 +12,13 @@ export const CartProvider = ({ children }) => {
     useEffect(() => {
         itemTotalQuantity()
         totalToPay()
-    }, [cart]) 
-    
+    }, [cart])
+
 
     const addItem = (item, quantity) => {
-        if(!isInCart(item.id)){
-            setCart(prev => [...prev, {...item, quantity}])
-        }else{
+        if (!isInCart(item.id)) {
+            setCart(prev => [...prev, { ...item, quantity }])
+        } else {
             console.error('El producto ya fue agregado')
         }
     }
@@ -49,7 +49,7 @@ export const CartProvider = ({ children }) => {
     const totalToPay = () => {
         let total = 0
         cart.forEach(prod => {
-            total += prod.quantity*prod.price
+            total += prod.quantity * prod.price
         })
 
         setTotalToPay(total)

@@ -15,20 +15,20 @@ function App() {
   return (
     <>
       <BrowserRouter>
-      <CartProvider>
-        <NavBar />
-        <Routes>
-          <Route path='/' element={<ItemListContainer />}/>
-          <Route path='/detalle/:id' element={<ItemDetail />}/>
-          <Route path='/categoria/:category' element={<ItemListContainer />}/>
-          <Route path='/cart' element={<Cart/>}/>
-          <Route path='/checkout' element={<Checkout/>}/>
-          <Route path='*' element={<h1>Error 404</h1>}/>
-        </Routes>
+        <CartProvider>
+          <NavBar />
+          <Routes>
+            <Route path='/' element={<ItemListContainer />} />
+            <Route path='/detalle/:id' element={<ItemDetail />} />
+            <Route path='/categoria/:category' element={<ItemListContainer />} />
+            <Route path='/cart' element={<Cart />} />
+            <Route path='/checkout' element={<Checkout />} />
+            <Route path='*' element={<h1>Error 404</h1>} />
+          </Routes>
         </CartProvider>
       </BrowserRouter>
-   <Footer/>
-   </>
+      <Footer />
+    </>
   )
 }
 

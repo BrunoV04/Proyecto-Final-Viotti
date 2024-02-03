@@ -19,11 +19,11 @@ const ItemList = () => {
                     return { id: doc.id, ...fields }
                 })
 
-         setProducto(products)
-        })
-        .finally(()=>{
-            setLoading(false)
-        })
+                setProducto(products)
+            })
+            .finally(() => {
+                setLoading(false)
+            })
     }, [category])
 
     if (loading) {

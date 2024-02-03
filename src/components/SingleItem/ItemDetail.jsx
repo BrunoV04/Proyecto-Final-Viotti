@@ -1,4 +1,3 @@
-//import { getPorductoById } from '../../../asyncMock'
 import { useState, useEffect } from 'react'
 import ItemDetailContainer from './ItemDetailContainer'
 import { useParams } from 'react-router-dom'
